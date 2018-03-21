@@ -19,8 +19,7 @@ def categories
 end
 
 def brands
-	@brands = Product.pluck(:brand).sort.uniq
-	
+	@brands = Product.pluck(:brand).sort.uniq	
 end
 
 end
